@@ -1,0 +1,18 @@
+@font-face {
+    font-family:'pokeSolid';
+    src: url('../fonts/PokeSolid.woff');
+}
+
+@font-face {
+    font-family:'pokeHollow';
+    src: url('../fonts/PokeHollow.woff');
+}
+
+header {
+    font-family: 'pokeSolid';
+    color: yellow;
+    text-shadow: -2px 0 black, 0 4px black, 4px 0 black, 0 -2px black;
+    font-size: 48px;
+    letter-spacing: 1.5px;
+
+}
