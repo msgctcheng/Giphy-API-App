@@ -44,15 +44,28 @@ header {
 #display-gifs {
     font-family: Arial;
     position:relative;
-    text-align: left;
     width: 84%;
     height: 37.5%;
     margin-left: 7.5%;
     margin-right: 7.5%;
     margin-top: 7%;
     Color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.newDiv {
+    flex: 1 0 15%;
+    
 }
 
+h3 {
+   font-family: 'Arial';
+    color: Blue;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 .input-wrapper {
     padding-left: 11%;
     font-family: arial;
@@ -79,8 +92,19 @@ input[type=text] {
 }
 
 #display-buttons {
+   
     width: 53%;
     height: 27%;
     margin-left: 23%;
+    margin-top: 5px;
     
 }
+.newButton {
+    border-radius: 15%;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 250%;
+
+}
+
