@@ -65,6 +65,7 @@ $("#subButton").on("click", function () {
         buttonMaker();
     }
 
+    $("#userInput").val("");
 
 });
 
