@@ -8,11 +8,79 @@
     src: url('../fonts/PokeHollow.woff');
 }
 
+body {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+}
+
 header {
+    display: flex;
     font-family: 'pokeSolid';
     color: yellow;
-    text-shadow: -2px 0 black, 0 4px black, 4px 0 black, 0 -2px black;
+    text-shadow: -2px 0 blue, 0 4px blue, 4px 0 blue, 0 -2px blue;
     font-size: 48px;
     letter-spacing: 1.5px;
+    width: 100%;
+    justify-content: center;
+   
+    
 
+}
+
+.main-display {
+   background-image: url("../images/3DS.png");
+   background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1219px;
+    height: 915px;
+    padding-bottom: 50px;
+    
+}
+
+#display-gifs {
+    font-family: Arial;
+    position:relative;
+    text-align: left;
+    width: 84%;
+    height: 37.5%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 7%;
+    Color: black;
+}
+
+.input-wrapper {
+    padding-left: 11%;
+    font-family: arial;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    margin-top: 7.5%;
+    margin-left: 23%;
+    width: 53%;
+
+}
+
+#subButton {
+    border-radius: 15%;
+    margin-left: 10px;
+}
+input[type=text] {
+    border-radius: 10%;
+    background-color: #7fb7e0;
+    font-family: Arial;
+    font-size: 24px;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#display-buttons {
+    width: 53%;
+    height: 27%;
+    margin-left: 23%;
+    
 }
