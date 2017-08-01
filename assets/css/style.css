@@ -56,9 +56,10 @@ header {
 
 }
 .newDiv {
-    flex: 1 0 15%;
+    flex: 1 0 17%;
     
 }
+
 img {
     border-radius: 15%;
 }
@@ -83,6 +84,7 @@ h3 {
 #subButton {
     border-radius: 15%;
     margin-left: 10px;
+ 
 }
 input[type=text] {
     border-radius: 10%;
