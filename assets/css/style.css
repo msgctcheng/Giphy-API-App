@@ -59,7 +59,9 @@ header {
     flex: 1 0 15%;
     
 }
-
+img {
+    border-radius: 15%;
+}
 h3 {
    font-family: 'Arial';
     color: Blue;
