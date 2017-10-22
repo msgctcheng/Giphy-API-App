@@ -1,7 +1,7 @@
 # Giphy-API-App
                                     AJAX | HTML5 | CSS3 | JS/jQuery | Giphy API 
 
-###Pokemon themed app using AJAX to query Giphy API
+### Pokemon themed app using AJAX to query Giphy API
 
 * App Link: https://msgctcheng.github.io/Giphy-API-App/
 
