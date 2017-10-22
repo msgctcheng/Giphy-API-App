@@ -5,7 +5,7 @@
 
 * App Link: https://msgctcheng.github.io/Giphy-API-App/
 
-* App Preview:
+* App Preview GIF:
 
 ![alt text](https://media.giphy.com/media/l378ugRHM2CMDKWDC/giphy.gif)
 
