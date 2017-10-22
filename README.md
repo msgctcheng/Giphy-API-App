@@ -1,4 +1,4 @@
-# GiphyHomework
+# Giphy-API-App
 
 Complete Recommit message
 
